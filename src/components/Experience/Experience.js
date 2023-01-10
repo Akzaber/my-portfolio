@@ -27,7 +27,7 @@ const Experience = () => {
       id: 3,
       src: tailwind,
       title: "TAILWIND",
-      style: "shadow-cyan-500",
+      style: "shadow-cyan-600",
     },
     {
       id: 4,
@@ -39,13 +39,13 @@ const Experience = () => {
       id: 5,
       src: react,
       title: "REACT JS",
-      style: "shadow-sky-500",
+      style: "shadow-teal-600",
     },
     {
       id: 6,
       src: nodejs,
       title: "NODE JS",
-      style: "shadow-green-500",
+      style: "shadow-green-600",
     },
     {
       id: 7,
@@ -58,20 +58,20 @@ const Experience = () => {
       id: 8,
       src: mongodb,
       title: "MONGODB",
-      style: "shadow-teal-500",
+      style: "shadow-white",
     },
     {
       id: 9,
       src: firebase,
       title: "FIREBASE",
-      style: "shadow-amber-500",
+      style: "shadow-amber-700",
     },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-stone-700 via-stone-700 to-black w-full h-screen"
+      className="bg-gradient-to-b from-stone-700 via-stone-700 to-black w-full md:h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -88,7 +88,7 @@ const Experience = () => {
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">html</p>
+              <p className="mt-4">{title}</p>
             </div>
           ))}
         </div>
