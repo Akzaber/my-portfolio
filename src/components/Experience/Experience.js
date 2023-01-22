@@ -75,13 +75,15 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <h1 className="text-4xl font-bold border-b-4 border-red-600 p-2 inline">
+          <h1 className="text-4xl text-white hover:text-red-600 font-bold inline border-b-4 duration-700 hover:border-white border-red-600">
             Experience
           </h1>
-          <p className="py-6">These are the technologies i have worked with</p>
+          <p className="py-2 text-xl">
+            These are the technologies i have worked with
+          </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {tecs.map(({ id, src, title, style }) => (
             <div
               key={id}

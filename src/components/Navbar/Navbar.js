@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import Switch from "react-switch";
+import { ThemeContext } from "../../contexts/ThemeProvider/ThemeProvider";
 
 const Navbar = () => {
   const [icon, setIcon] = useState(false);
+  const { toggleTheme, theme } = useContext(ThemeContext);
   const links = [
     {
       id: 1,
@@ -29,7 +32,17 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-20 w-full fixed bg-black text-white px-4">
       <div>
-        <h1 className="text-5xl pl-4 font-signature">Ak.Zabers</h1>
+        <h1 className="text-5xl pl-4 font-signature hover:cursor-pointer">
+          <span className="hover:text-red-600 duration-300">A</span>
+          <span className="hover:text-red-600 duration-300">k</span>
+          <span className="hover:text-red-600 duration-300">.</span>
+          <span className="hover:text-red-600 duration-300">Z</span>
+          <span className="hover:text-red-600 duration-300">a</span>
+          <span className="hover:text-red-600 duration-300">b</span>
+          <span className="hover:text-red-600 duration-300">e</span>
+          <span className="hover:text-red-600 duration-300">r</span>
+          <span className="hover:text-red-600 duration-300">s</span>
+        </h1>
       </div>
       <ul className="hidden md:flex">
         {links.map(({ link, id }) => (
@@ -42,11 +55,12 @@ const Navbar = () => {
             </Link>
           </li>
         ))}
+        <Switch onChange={() => toggleTheme()} checked={theme}></Switch>
       </ul>
 
       <div
         onClick={() => setIcon(!icon)}
-        className="md:hidden cursor-pointer pr-4 z-10 text-gray-500 hover:text-white"
+        className="md:hidden cursor-pointer pr-4 z-10 text-stone-700 hover:text-white"
       >
         {icon ? <FaTimes size={30}></FaTimes> : <FaBars size={30}></FaBars>}
       </div>
@@ -57,7 +71,7 @@ const Navbar = () => {
             {links.map(({ link, id }) => (
               <li
                 key={id}
-                className="py-4 text-xl hover:text-white capitalize text-gray-500 hover:scale-105 duration-300 cursor-pointer"
+                className="py-4 text-xl hover:text-white capitalize text-stone-700 hover:scale-105 duration-300 cursor-pointer"
               >
                 <Link
                   onClick={() => setIcon(!icon)}

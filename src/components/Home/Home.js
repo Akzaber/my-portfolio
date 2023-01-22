@@ -7,25 +7,25 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full text-white bg-gradient-to-b from-black via-black  to-stone-700 pt-60 md:pt-0"
+      className="md:h-screen w-full text-white bg-gradient-to-b from-black via-black  to-stone-700 pt-20 md:pt-0"
     >
-      <div className="max-w-screen-lg mx-auto px-4 md:flex-row h-full gap-4 flex flex-col justify-center items-center">
+      <div className="max-w-screen-lg mx-auto px-4 md:flex-row w-full h-full gap-4 flex flex-col justify-center items-center">
         <div className="flex flex-col gap-4">
-          <h1 className="text-5xl md:text-7xl font-bold">
-            I am Junior Front-End-Developer
+          <h1 className="text-5xl md:text-6xl font-bold">
+            Hello I am Zaber junior Front-end Developer
           </h1>
           <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum non
-            earum laudantium veritatis ab aspernatur perferendis, necessitatibus
-            praesentium pariatur architecto in expedita cum temporibus
-            recusandae quibusdam sunt corporis dicta fugiat.
+            Self-driven, motivated, hard-working computer science student and
+            began to a journey as a front-end developer. Extensive knowledge
+            about development-tools, excellent problem solving skills and
+            ability to perform well in a team.
           </p>
           <div>
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group w-fit my-2 px-6 py-3 bg-gradient-to-r from-red-600 to-red-700 flex font-semibold justify-center rounded items-center"
+              className="group w-fit hover:scale-105 my-2 px-6 py-3 hover:text-red-600 bg-gradient-to-r from-red-600 hover:from-white to-red-700 hover:to-white flex font-semibold justify-center duration-300 rounded items-center hover:cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">

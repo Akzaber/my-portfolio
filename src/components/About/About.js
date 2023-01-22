@@ -4,31 +4,30 @@ const About = () => {
   return (
     <div
       name="about"
-      className="h-screen w-full bg-gradient-to-b from-stone-700  via-stone-700 to-black text-white"
+      className="md:h-screen w-full bg-gradient-to-b from-stone-700  via-stone-700 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-red-600">
+          <p className="text-4xl text-white hover:text-red-600 font-bold inline border-b-4 duration-700 hover:border-white border-red-600">
             About
           </p>
         </div>
         <p className="text-xl mt-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
-          laudantium sint quisquam voluptatum, iste repudiandae maiores unde
-          repellendus non labore voluptas dolore distinctio odit tempore commodi
-          necessitatibus culpa accusantium delectus reiciendis eius, quaerat
-          quidem ipsum eligendi alias? Eos, eius? Recusandae laudantium labore
-          ut perspiciatis, autem explicabo ipsam sapiente ab laboriosam?
+          Hello, I am Zaber. I am doing B.Sc. in computer science & engineering
+          from World University of Bangladesh. I am self motivated hard-working
+          person. Recently I am doing the web development course from
+          programming hero. Now I am well known about html, CSS, Bootstrap,
+          Tailwind CSS, Material UI, JavaScript, React.js, Rest API, DOM
+          manupolation for front-end development.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          labore id inventore consequuntur nihil! Laboriosam sapiente
-          accusantium cum esse aliquam aliquid distinctio ab odio perferendis,
-          placeat eum veniam expedita minus mollitia inventore iusto porro vel,
-          quae sint odit ut. Esse dignissimos ea aliquid quam ut, perferendis ex
-          expedita nam, corrupti hic veniam vitae reiciendis autem alias
-          praesentium! Sint, earum dignissimos?
+          I also try to grab the full stack development. Now I am familiar with
+          Node.js, Express.js, MongoDB, Firebase Authentication. I have been
+          making myself as a Web developer. I have a dream I want to become a
+          Good Web developer in future. I have to become more fashonable about
+          Programming. Extensive knowledge about development tools, Excellent
+          problem solving skills and ability to perform well in a team.
         </p>
       </div>
     </div>
