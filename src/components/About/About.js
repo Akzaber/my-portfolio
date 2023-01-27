@@ -26,8 +26,9 @@ const About = () => {
           Node.js, Express.js, MongoDB, Firebase Authentication. I have been
           making myself as a Web developer. I have a dream I want to become a
           Good Web developer in future. I have to become more fashonable about
-          Programming. Extensive knowledge about development tools, Excellent
-          problem solving skills and ability to perform well in a team.
+          Programming. I have extensive knowledge about development tools,
+          Excellent problem solving skills and ability to perform well in a
+          team.
         </p>
       </div>
     </div>

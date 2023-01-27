@@ -1,12 +1,9 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import Switch from "react-switch";
-import { ThemeContext } from "../../contexts/ThemeProvider/ThemeProvider";
 
 const Navbar = () => {
   const [icon, setIcon] = useState(false);
-  const { toggleTheme, theme } = useContext(ThemeContext);
   const links = [
     {
       id: 1,
@@ -26,6 +23,10 @@ const Navbar = () => {
     },
     {
       id: 5,
+      link: "blog",
+    },
+    {
+      id: 6,
       link: "contact",
     },
   ];
@@ -55,7 +56,6 @@ const Navbar = () => {
             </Link>
           </li>
         ))}
-        <Switch onChange={() => toggleTheme()} checked={theme}></Switch>
       </ul>
 
       <div

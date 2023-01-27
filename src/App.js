@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Blog from "./components/Blog/Blog";
 import Contacts from "./components/Contacts/Contacts";
 import Experience from "./components/Experience/Experience";
 import Home from "./components/Home/Home";
@@ -15,6 +16,7 @@ function App() {
       <About></About>
       <Portfolio></Portfolio>
       <Experience></Experience>
+      <Blog></Blog>
       <Contacts></Contacts>
     </div>
   );

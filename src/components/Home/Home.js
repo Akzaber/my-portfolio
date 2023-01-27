@@ -15,10 +15,8 @@ const Home = () => {
             Hello I am Zaber junior Front-end Developer
           </h1>
           <p className="text-lg">
-            Self-driven, motivated, hard-working computer science student and
-            began to a journey as a front-end developer. Extensive knowledge
-            about development-tools, excellent problem solving skills and
-            ability to perform well in a team.
+            My confidence possitive attitude and self-belief are my biggest
+            assets to take me a step closer to my success.
           </p>
           <div>
             <Link
@@ -37,7 +35,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="md:w-[700px] w-1/2">
+        <div className="w-1/2">
           <img src={heroImage2} alt="" className="rounded-lg w-full" />
         </div>
       </div>
