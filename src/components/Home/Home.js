@@ -34,7 +34,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="w-1/2">
+        <div>
           <img src={myImage} alt="" className="rounded w-full" />
         </div>
       </div>

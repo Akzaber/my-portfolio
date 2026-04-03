@@ -24,7 +24,7 @@ const Blog = () => {
           <span>React has made my learning journey exciting, and I believe mastering it is a key step toward becoming a skilled full-stack developer.</span>
             </p>
           <h1 className="text-4xl font-bold mb-6">Top 5 Tools Every Web Developer Should Know</h1>
-          <ul className="list-decimal">
+          <ul>
             <li><span className="font-bold">VS Code</span> – My main code editor for writing HTML, CSS, JavaScript, and React.</li>
             <br></br>
             <li><span className="font-bold">Git & GitHub</span> – For version control and collaboration on projects</li>
