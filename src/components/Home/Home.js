@@ -15,7 +15,7 @@ const Home = () => {
             Hello I am Zaber junior Front-end Developer
           </h1>
           <p className="text-lg text-justify">
-            Hi, I am Abul Kashem Zaber, a passionate web developer. I build responsive and user-friendly web applications using HTML, CSS, JavaScript, and modern tools.
+            Hi, I am Abul Kashem Zaber, a passionate web developer. I build responsive and user-friendly web applications using HTML, CSS, JavaScript, and modern tools. I love turning ideas into interactive websites and continuously learning new technologies.
           </p>
           <div>
             <Link
