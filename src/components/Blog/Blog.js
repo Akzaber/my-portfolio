@@ -19,7 +19,7 @@ const Blog = () => {
             Blog
           </p>
         </div>
-        <div>
+        <div className="text-white">
           <h1 className="text-4xl font-bold text-center mb-6">Why I Chose React.js for Modern Web Applications</h1>
           <p className="text-xl mb-4">{b1}</p>
           <h1 className="text-4xl font-bold text-center">Top 5 Tools Every Web Developer Should Know</h1>
