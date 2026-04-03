@@ -1,13 +1,6 @@
 import React from "react";
 
 const Blog = () => {
-  const b1 = `
-    React.js has become my go-to library for building modern, responsive, and interactive web apps. What I love about React is its component-based architecture, which allows me to reuse code and organize projects efficiently.
-
-    With React, I can manage application state effectively and build projects that are fast and scalable. Integrating APIs and Firebase with React also makes it easier to create real-world applications, like user authentication systems, dynamic dashboards, and interactive forms.
-
-    React has made my learning journey exciting, and I believe mastering it is a key step toward becoming a skilled full-stack developer.
-  `
   return (
     <div
       name="blog"
@@ -21,9 +14,14 @@ const Blog = () => {
         </div>
         <div className="text-white">
           <h1 className="text-4xl font-bold mb-6">Why I Chose React.js for Modern Web Applications</h1>
-          <p className="text-xl mb-6">{b1}</p>
-          <h1 className="text-4xl font-bold text-center">Top 5 Tools Every Web Developer Should Know</h1>
-          <ul className="list-decimal">
+          <p className="text-xl mb-6">
+            React.js has become my go-to library for building modern, responsive, and interactive web apps. What I love about React is its component-based architecture, which allows me to reuse code and organize projects efficiently.
+          <br></br>
+            With React, I can manage application state effectively and build projects that are fast and scalable. Integrating APIs and Firebase with React also makes it easier to create real-world applications, like user authentication systems, dynamic dashboards, and interactive forms.
+          <br></br>
+            React has made my learning journey exciting, and I believe mastering it is a key step toward becoming a skilled full-stack developer.</p>
+          <h1 className="text-4xl font-bold mb-6">Top 5 Tools Every Web Developer Should Know</h1>
+          <ul className="list-decimal space-x-3">
             <li><span className="font-bold">VS Code</span> – My main code editor for writing HTML, CSS, JavaScript, and React.</li>
             <li><span className="font-bold">Git & GitHub</span> – For version control and collaboration on projects</li>
             <li><span className="font-bold">Chrome DevTools</span> – To debug, test, and optimize websites quickly.</li>
