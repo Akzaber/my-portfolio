@@ -20,15 +20,15 @@ const Blog = () => {
           </p>
         </div>
         <div className="text-white">
-          <h1 className="text-4xl font-bold text-center mb-6">Why I Chose React.js for Modern Web Applications</h1>
-          <p className="text-xl mb-4">{b1}</p>
+          <h1 className="text-4xl font-bold mb-6">Why I Chose React.js for Modern Web Applications</h1>
+          <p className="text-xl mb-6">{b1}</p>
           <h1 className="text-4xl font-bold text-center">Top 5 Tools Every Web Developer Should Know</h1>
           <ul className="list-decimal">
-            <li><span className="text-bold">VS Code</span> – My main code editor for writing HTML, CSS, JavaScript, and React.</li>
-            <li><span className="text-bold">Git & GitHub</span> – For version control and collaboration on projects</li>
-            <li><span className="text-bold">Chrome DevTools</span> – To debug, test, and optimize websites quickly.</li>
-            <li><span className="text-bold">Figma</span> – For designing layouts and prototypes before coding.</li>
-            <li><span className="text-bold">Firebase</span> – For authentication, database management, and hosting.</li>
+            <li><span className="font-bold">VS Code</span> – My main code editor for writing HTML, CSS, JavaScript, and React.</li>
+            <li><span className="font-bold">Git & GitHub</span> – For version control and collaboration on projects</li>
+            <li><span className="font-bold">Chrome DevTools</span> – To debug, test, and optimize websites quickly.</li>
+            <li><span className="font-bold">Figma</span> – For designing layouts and prototypes before coding.</li>
+            <li><span className="font-bold">Firebase</span> – For authentication, database management, and hosting.</li>
           </ul>
         </div>
       </div>
