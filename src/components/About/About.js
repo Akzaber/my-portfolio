@@ -1,9 +1,6 @@
 import React from "react";
 
 const About = () => {
-  const about = `
-    
-  `
   return (
     <div
       name="about"
